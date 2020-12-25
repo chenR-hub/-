@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<title>推箱子</title>
+</head>
+<body onkeydown ="dokeyDown(event);">
+	<canvas id="canvas" width="600" height="600"></canvas>
+	<button class="button orange" id="returnBegin">返回首页</button>
+    <div class="buttons">
+		<button class="button orange" id="ruleButton">游戏规则</button>
+		<button class="button orange" id="startButton">开始游戏</button>
+		<button class = "button orange" id="startButton1">开始游戏</button>
+	</div>	
+
+
+	<div id = "current">
+		<div  class = "msg" id = "levelNum"></div>
+		<div class = "msg" id = "moveNum"></div>
+		<img id = "imgGold" src="images/gold.png">
+		<div class = "msg" id = "goldNum"></div>
+		<input type="button" value="上一关" id="last" class="currentButton" >
+		<input type="button" value="下一关" id="next" class="currentButton" >
+		<input type="button" value="直接进行下一关 金币-3" id="directNext" class="currentButton" >
+		<input type="button" value="重玩" id="replay" class="currentButton" >
+		<input type="button" value="后退1步 金币-1" id="backOne" class="currentButton" >
+	</div>
+	<script  src="js/level.js"></script>
+	<script  src="js/Button.js"></script>
+    <script  src="js/test.js"></script>
+</body>
+</html>

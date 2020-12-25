@@ -1,0 +1,112 @@
+#canvas {
+	position: absolute;
+	left: 380px;
+	top: 20px;
+	display: block;
+}
+
+.buttons {
+	position: absolute;
+	left: 620px;
+	top: 300px;
+	width: 200px;
+}
+
+.button {
+	margin-top: 30px; 
+	display:block;
+	/*display: inline-block;*/
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% 'Microsoft yahei',Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+
+#startButton1 {
+	display: none;
+	position: absolute;
+	left: 70px;
+	top: 150px;
+
+	margin-left: 100px;
+	margin-top: 0px;
+	width:150px;
+	height:60px;
+	border:none;
+}
+
+#nextLevelIn {
+	display: none;
+	position: absolute;
+	left: 90px;
+	top: 110px;
+    background-color: rgb(237, 79, 94);
+	margin-left: 100px;
+	margin-top: 0px;
+	width:150px;
+	height:60px;
+	border:none;
+}
+
+#returnBegin {
+	display: none;
+	position: relative;
+	left: 280px;
+	top: 20px;
+    background-color: rgb(237, 79, 94);
+	margin-left: 100px;
+	margin-top: 0px;
+	width: 130px;
+	height: 32px; 
+	border:none;
+}
+
+#current {
+	position: absolute;
+	left: 1020px;
+	top: 40px;
+	width: 80px;
+}
+
+.currentButton {
+	width: 110px;
+	height: 32px; 
+	margin-top: 18px; 
+	border:none;
+	border-radius: 5px;
+}
+
+.msg {
+	font-size: 15px;
+}
+
+#imgGold {
+	width: 60px;
+	height: 60px; 
+	margin-top: 18px; 
+	border:none;
+	border-radius: 5px;
+}
+
+#directNext {
+	display: none;
+	width: 150px;
+}
+
+#replay {
+	display: none;
+}
+
+#backOne {
+	display: none;
+}
